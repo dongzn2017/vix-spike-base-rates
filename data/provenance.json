@@ -1,0 +1,19 @@
+{
+  "fetchedAt": "2026-10-17T15:10:55.195Z",
+  "window": {
+    "start": "2006-10-17",
+    "end": "2026-10-16"
+  },
+  "endpoint": [
+    "https://query1.finance.yahoo.com/v8/finance/chart/^GSPC?range=20y&interval=1d",
+    "https://query1.finance.yahoo.com/v8/finance/chart/^IXIC?range=20y&interval=1d",
+    "https://query1.finance.yahoo.com/v8/finance/chart/^VIX?range=20y&interval=1d",
+    "https://query1.finance.yahoo.com/v8/finance/chart/^SOX?range=20y&interval=1d",
+    "https://query1.finance.yahoo.com/v8/finance/chart/CL=F?range=20y&interval=1d"
+  ],
+  "filter": {
+    "episodes": "VIX one-day change >= +15% AND VIX close >= 18",
+    "vol_compression_break": "VIX five sessions earlier <= 16.5 AND VIX one-day change >= +20% (no level floor; independent of the episodes filter)"
+  },
+  "note": "Derived statistics only; upstream daily prices are not redistributed."
+}

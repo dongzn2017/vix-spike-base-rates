@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you reuse these derived statistics, please cite the dataset as follows."
+title: "What happens after a VIX spike: base rates, 2006-2026"
+authors:
+  - name: "Vic"
+    orcid: "0000-0000-0000-0000"
+date-released: 2026-10-17
+repository-code: "https://github.com/dongzn2017/vix-spike-base-rates"
+url: "https://www.parisberries.com/en/articles/vix-spike-oct-2026/"
+license: MIT
+type: dataset
+keywords:
+  - VIX
+  - volatility
+  - base rates
+  - S&P 500
+  - geopolitical risk
